@@ -1,2 +1,2 @@
 # KhushaliSamderiya-Portfolio
- This is my first github project
+ This website is to showcase my portfolio
