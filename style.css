@@ -48,3 +48,14 @@ hr{
  }
 
  /* check Ben naming convention for Class names  */
+
+/* lists */
+ 
+.list-non-bullet{
+    list-style: none;
+}
+
+.list-item-inline{
+    display: inline;
+    padding: 0rem 0.5rem;
+}
