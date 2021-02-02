@@ -1,76 +1,76 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,300&display=swap');
 
-:root{
+:root {
     --primary-color: red;
     --dark-grey: grey;
     --off-white: #F1F5F9;
 }
 
-body{
+body {
     font-family: 'Roboto', sans-serif;
 }
 
-hr{
-  margin: 2rem 0rem;
-  /* visibility: hidden; */
+hr {
+    margin: 2rem 0rem;
+    /* visibility: hidden; */
 }
 
 
-.container{
+.container {
     padding-left: 1rem;
     padding-right: 1rem;
-  
+
 }
 
-.container-centered{
+.container-centered {
     max-width: 600px;
     margin: auto;
 }
 
 /* Links */
 
-.link{
+.link {
     text-decoration: none;
     padding: 0.5rem 1rem;
 
 }
 
-.link-primary{
+.link-primary {
     background-color: var(--primary-color);
     border-radius: 1rem;
     color: white;
-    
- }
 
- .link-secondary{
-     color: var(--primary-color);
-     border: 1px solid var(--primary-color);
-     border-radius: 1rem;
+}
 
- }
+.link-secondary {
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+    border-radius: 1rem;
 
- /* check Ben naming convention for Class names  */
+}
+
+/* check Ben naming convention for Class names  */
 
 /* lists */
- 
-.list-non-bullet{
+
+.list-non-bullet {
     list-style: none;
 }
 
-.list-item-inline{
+.list-item-inline {
     display: inline;
     padding: 0rem 0.5rem;
 }
 
-.navigation{
+.navigation {
     background-color: var(--primary-color);
-    color:white;
+    color: white;
     padding: 1rem;
     margin: 1rem;
     border-bottom-left-radius: 1rem;
 }
 
-.navigation .nav-brand{
+.navigation .nav-brand {
     font-weight: bold;
     font-size: 1.1rem;
 }
@@ -79,52 +79,71 @@ hr{
     text-align: right;
 
 }
-.navigation .link{
-   color: white;
-   
+
+.navigation .link {
+    color: white;
+
 }
 
-.navigation .link-active{
+.navigation .link-active {
     font-weight: bold;
 }
 
-.hero{
+.hero {
     padding: 2rem 0rem;
 }
 
-.hero .hero-img{
+.hero .hero-img {
     max-width: 400px;
     display: block;
     margin: auto;
-    
+
 }
 
-.hero .hero-heading{
+.hero .hero-heading {
     font-size: 2rem;
     color: var(--dark-grey);
     text-align: center;
     padding-top: 2rem;
 }
 
-.hero .heading-inverted{
+.hero .heading-inverted {
     color: var(--primary-color);
 }
 
-.section{
+.section {
     padding: 2rem;
-    
+
 }
 
-.section h1{
+.section h1 {
     text-align: center;
 }
 
-.off-section{
+.off-section {
     background-color: var(--off-white);
 
 }
 
-.container-center{
+.container-center {
     text-align: center;
     margin: 0rem 15rem;
+}
+
+/* footer */
+
+.footer {
+    background-color: var(--primary-color);
+    padding: 2rem;
+    text-align: center;
+    color: white;
+    border-top-right-radius: 1rem;
+}
+
+.footer .link{
+    color: white;
+}
+
+.footer ul{
+    padding-inline-start: 0rem;
 }
